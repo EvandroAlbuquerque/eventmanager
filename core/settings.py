@@ -127,3 +127,13 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+#CONFIGS PARA ENVIO DE E-MAIL
+# DEFAULT_FROM_EMAIL = 'Título do e-mail.'
+# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"   #já vem com este valor por padrão 
+# EMAIL_HOST_USER = 'enviar@email.com'
+# EMAIL_HOST_PASSWORD = 'senhadoemail'
+# EMAIL_USE_TLS = True    #para dar segurança no e-mail, como um certificado ssl
+# EMAIL_HOST = 'smtp...'  #verificar com a provedora do e-mail.
+# EMAIL_PORT = 123    #verificar com a provedora do e-mail.
